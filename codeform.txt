@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="khung">
+		<div class="tieu_de">
+			<img src="bt4.png">
+			<span>Employee Rengistration Form</span>
+			<form class="buttom">
+				<input type="radio" name="sex" value="1">Mr
+				<input type="radio" name="sex" value="2">Ms
+				<input type="radio" name="sex" value="3">Mrs
+			</form>
+		</div>
+		<div class="Menu">
+			<form class="demo_menu">
+				<p>First Name
+					<input type="text" name="First Name" placeholder="First Name"></p>
+				<p>Last Name
+					<input type="text" name="Last Name" placeholder="Last Name"></p>
+				<p>Mail address 1
+					<input type="E-mail" name="Mail address 1"></p>
+				<p>Mail address 2
+					<input type="E-mail" name="Mail address 2"></p>
+				<p>City
+					<input type="text" name="city"></p>
+				<p>State
+					<select>
+						<option>Guiarat</option>
+						<option>VN</option>
+						<option>America</option>
+					</select>
+				</p>
+				<p>Zip
+					<input type="text" name="zip"></p>
+				<p>Upload photo
+					<button>Choosefile</button>
+					no flie chossen
+				<p>E-mail
+					<input type="E-mail" name="Mail"></p>
+				<p>Mobile
+					<input type="number" name="Mobile" placeholder="+91"></p>
+				Languages known
+					<p>
+						<input type="checkbox" name="1">
+						<label>Hindi</label>
+					</p>
+					<p>
+						<input type="checkbox" name="2">
+						<label>English</label>
+					</p>
+					<p>
+						<input type="checkbox" name="3">
+						<label>VN</label>
+					</p>
+					<p>
+						<input type="checkbox" name="4">
+						<label>Marathi</label>
+					</p>
+				<p>Additional Information
+					<textarea placeholder="optional" rows="8" cols="30"></textarea></p>
+				<button>submit</button>
+				<button>reset</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
